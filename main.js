@@ -1,5 +1,4 @@
 const fs = require("fs").promises;
-const figlet = require('figlet');
 const path = require("path");
 const axios = require("axios");
 const colors = require("colors");
