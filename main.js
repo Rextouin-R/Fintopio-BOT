@@ -281,6 +281,13 @@ class Fintopio {
       for (let i = 0; i < users.length; i++) {
         const userData = users[i];
         const first_name = this.extractFirstName(userData);
+        console.log(` 
+                    _   _               _   _              _
+  /\ /\    _ __    | | (_)  _ __ ___   (_) | |_   __    __| |
+/  / \  \ | '__ \  | | | | | '_ ' _  \ | | | __| /__\  / _' |
+\  \_/  / | |  | | | | | | | | | | | | | | | |_ | __/ | (_| |
+ \____/   |_|  |_| |_| |_| |_| |_| |_| |_| \___| \___| \__,_|
+        ${i + 1} | ${first_name} `);
         console.log(`[ Account ${i + 1} | ${first_name} ]`);
         const token = await this.auth(userData);
         if (token) {
