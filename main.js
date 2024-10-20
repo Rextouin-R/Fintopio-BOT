@@ -303,9 +303,10 @@ class Fintopio {
 *.....,,,,,,,,,,,,,,,***********,,,,,,,,,,,,,,,,,,,,*,********,,,,,,,,,,,,,,,,,.
 *.........,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,..........
         `);
-        console.log(`______________🔹[ join : @airdrop_inlimited ]🔹__________________`);
-        console.log(`___________🔹[ join chat : @unlimited_discussion ]🔹_____________`);
+        console.log(`________________🔹[ join : @airdrop_inlimited ]🔹________________`);
+        console.log(`____________🔹[ join chat : @unlimited_discussion ]🔹____________`);
         console.log(`__________🔹[ github : https://github.com/Rextouin-R/ ]🔹________`);
+        console.log(`➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖`);
         console.log(`[ Account ${i + 1} | ${first_name} ]`);
         const token = await this.auth(userData);
         if (token) {
