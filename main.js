@@ -281,7 +281,6 @@ class Fintopio {
       for (let i = 0; i < users.length; i++) {
         const userData = users[i];
         const first_name = this.extractFirstName(userData);
-        console.log(textSync('U n l i m i t e d', {font: "Ogre"}), '\n');
         console.log(`[ Account ${i + 1} | ${first_name} ]`);
         const token = await this.auth(userData);
         if (token) {
